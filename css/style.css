@@ -1,0 +1,79 @@
+@font-face {
+    font-family: 'Sports World';
+    src: url('../src/fonts/sport/SportsWorld.eot');
+    src: url('../src/fonts/sport/SportsWorld.eot?#iefix') format('embedded-opentype'),
+        url('../src/fonts/sport/SportsWorld.woff2') format('woff2'),
+        url('../src/fonts/sport/SportsWorld.woff') format('woff'),
+        url('../src/fonts/sport/SportsWorld.ttf') format('truetype'),
+        url('../src/fonts/sport/SportsWorld.svg#SportsWorld') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+body {
+	font-family: 'Roboto', sans-serif;
+}
+
+h1, h2, h3, h4, h5, h6, p {
+	margin: 0;
+	padding: 0;
+}
+
+li, a {
+	text-decoration: none;
+	color: #000;
+}
+
+.container {
+	width: 87%;
+	margin: 0 auto;
+}
+
+.offer-title {
+	font-family: Sports World;
+}
+
+.offer-title h1 {
+	font-size: 25px;
+	color: #FA8D2B;
+	margin-top: 20px;
+}
+
+.offer-title p {
+	font-family: Sports World;
+	font-size: 18px;
+	color: rgba(255, 162, 52, 0.72);
+	margin-left: 177px;
+	margin-top: 10px;
+}
+
+.nav ul {
+	display: -webkit-flex;
+	display: -moz-flex;
+	display: -ms-flex;
+	display: -o-flex;
+	display: flex;
+	text-align: center;
+	justify-content: center;
+}
+
+.nav li {
+	margin-right: 40px;
+	list-style-type: none;
+	color: #fff;
+	font-size: 13px;
+}
+
+nav {
+	height: 50px;
+	background: rgba(255, 138, 0, 0.79);
+	margin-top: 30px;
+	display: flex;
+	text-align: center;
+	justify-content: center;
+}
+
+.logo {
+	position: absolute;
+	top: 50px;
+}
